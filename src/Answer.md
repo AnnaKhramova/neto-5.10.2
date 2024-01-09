@@ -1,6 +1,6 @@
-![img.png](metaspace.png)
+![img.png](metaspace.png)  
 
-![img.png](classes.png)
+![img.png](classes.png)  
 
 1) В metaspace были загружены 529 классов из io.vertx, размер metaspace увеличился до 7 МБ. 
    В куче также были созданы экземпляры типа String и LocalTime для вывода в консоль.  
@@ -21,7 +21,7 @@
 17:00:25.285001100: loaded 869 classes
 ```
 
-![img.png](heap.png)
+![img.png](heap.png)  
 Изначально размер кучи был 250 МБ.  
 Точки 1, 2 были описаны выше.
 4) GC почистил в куче неиспользуемые объекты. Размер кучи уменьшился почти до 0 МБ.    
